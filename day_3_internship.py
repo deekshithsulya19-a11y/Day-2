@@ -46,7 +46,7 @@ def food():
   print(vegetable+" is a local variable value")
 food()
 print(icecream+" is a global variable value")
-print(fruit+"is a local variable value")
+#print(fruit+"is a local variable value")
 
 """**Modules**"""
 
@@ -71,4 +71,19 @@ print(random.choice([10,20,30,40]))
 
 import random
 print(random.randrange(1,20))
+
+import random
+print(random.random())
+
+import random
+print(random.uniform(1.5,5.5))
+
+import random
+numbers=[1,2,3,4,5]
+random.shuffle(numbers) 
+print(numbers)
+
+import random
+fruits=["Apple","Banana","Mango","Orange"]
+print(random.sample(fruits,2))
 
